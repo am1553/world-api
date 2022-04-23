@@ -1,0 +1,48 @@
+@import '../Header/Header';
+@import '../Main/FilterBar/FilterBar';
+@import '../Main/CountriesContainer/CountriesContainer';
+@import '../Main/MoreInformation/MoreInformation';
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    h1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px
+    }
+    .mode_text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .filter_text {
+        font-weight: 400;
+    }
+    input {
+        outline: none;
+    }
+    input:focus::placeholder {
+        opacity: 0;
+    }
+    button {cursor: pointer;}
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.main_container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
